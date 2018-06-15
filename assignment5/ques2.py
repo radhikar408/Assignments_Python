@@ -4,7 +4,7 @@ b=int(input("enter breadth "))
 if(l==b):
 	print("dimensions are of square")
 else:
-	print("dimensions are of square")
+	print("dimensions are of rectangle")
 
 			
 	

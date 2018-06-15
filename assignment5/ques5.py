@@ -2,9 +2,8 @@
 q=int(input("enter the units "))
 q1=q*100
 if(q1>1000):
-	dis=((10/q)*100)
-	q1=q1+dis
+	dis=((q/10)*100)
+	q1=q1-dis
 	print("total cost is %d"%(q1))
 else:
-		print("no discount")
-	
+		print("no discount and tatal cost is %d"%(q1))
