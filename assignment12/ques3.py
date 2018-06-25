@@ -1,11 +1,11 @@
 #Q.3- Using Tweepy library try to extract tweets from Twitter.
 
 import tweepy
-consumer_key="PtmW3YkLUm7os5pYZEjdgAXOx"
-consumer_secret="SeVyhIwTtih8fKskz0aVftV1sa8LWpCxKhrKzWAvNQz6K8SZBb"
+consumer_key="PtmW3YkLUmabc23jgkk34llfgj"
+consumer_secret="SeVyhIwTtisghqw2l6nfmvhWAvNQz12gd34jZBb"
 
-access_token="1011130643999313920-tU0w1W8HSSq9rYyAPcbRJ5r8Grvu1x"
-access_token_secret="xQCbkt7540dfgA8og0szqFPJP2XcoN7fsbD94yp9KkdHm"
+access_token="1rtkjiiu783920-tU0w1W8HSS126344jsdfztfopgt"
+access_token_secret="xQdhfgrkhcnm12p4567hdgHm"
 
 
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
