@@ -1,0 +1,14 @@
+Access Token
+The Access Token is a credential that can be used by an application to access an API.
+
+
+
+*to generate access token
+
+
+1.>create a twitter account
+2.>go to apps.twitter.com
+3.>click on create new application
+4.>fill the form
+5.>click on create new application
+6.>note the consumer_key,consumer_secrate,access_token,access_token_secrate
