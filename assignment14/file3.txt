@@ -1,0 +1,10 @@
+Programming for
+Python is a general-purpose interpreted, interactive,
+Everybody (Getting Started with Python) 
+ object-oriented, and high-level programming language. ... This tutorial 
+from University of Michigan. This cours
+ gives enough understanding on Python programming language.
+e aims to 
+ This tutorial is designed for software programmers
+teach everyone the basics
+ who need to learn Python programming language from ...

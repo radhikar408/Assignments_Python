@@ -1,0 +1,5 @@
+Python is a general-purpose interpreted, interactive,
+ object-oriented, and high-level programming language. ... This tutorial 
+ gives enough understanding on Python programming language.
+ This tutorial is designed for software programmers
+ who need to learn Python programming language from ...
