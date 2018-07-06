@@ -28,7 +28,7 @@ import numpy as np
 # each element is the following function applied on each element of A.
 # def show(i):
 #     return(1/(1+np.exp(-a)))
-# a=np.random.random([10,1])
+# au=np.random.random([10,1])
 # b=[]
 # print(a)
 # for i in a:
