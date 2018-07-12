@@ -12,7 +12,6 @@ global insrt_text
 
 
 def savenote():
-    print("savenotes")
     note = insrt_text.get('1.0', 'end')
     subject=subj.get()
     n=na.get()
@@ -24,7 +23,6 @@ def savenote():
         db.rollback()
 
 def insrt():
-    print("insert")
     insrt_root=Tk()
 
     insrt_root.geometry("500x500")

@@ -18,7 +18,6 @@ nameList=[]
 
 
 def update():
-    print("update")
     update_root = Tk()
     update_root.geometry("500x500")
 
@@ -39,8 +38,6 @@ def update():
 
 
 def search():
-    print("search")
-    # print("cp1")
     global name
     cmd1 = "select name from notes"
     cursor.execute(cmd1)
@@ -54,7 +51,6 @@ def search():
             break
 
 def fetchdata(names):
-    print("fetchdata")
     global update_text
     cmd = "select data from notes where name= \'"+names+"\'"
     cursor.execute(cmd)
@@ -63,7 +59,6 @@ def fetchdata(names):
     update_text.insert(INSERT, textData[0][0])
 
 def saveChanges():
-    print("save changes")
     global name
     print(name)
     global update_text
