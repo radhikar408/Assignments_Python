@@ -1,6 +1,4 @@
 #update
-
-
 db=pymysql.connect('localhost','root','khushbukhushi','demo')
 cursor=db.cursor()
 q1="select * from titles"
