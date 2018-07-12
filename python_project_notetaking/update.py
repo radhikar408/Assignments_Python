@@ -60,7 +60,6 @@ def fetchdata(names):
 
 def saveChanges():
     global name
-    print(name)
     global update_text
     textData = update_text.get('1.0', 'end')
     cmd1 = "update notes set data = Null where name= \'"+name+"\'"

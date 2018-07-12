@@ -14,7 +14,6 @@ nameList=[]
 db=pymysql.connect('localhost','root','khushbukhushi','note')
 cursor = db.cursor()
 def main():
-    print("main")
     global listNotes
     root=Tk()
 
@@ -48,7 +47,6 @@ def main():
     root.mainloop()
 
 def deleteNotes():
-    print("deletenotes")
     global listNotes
     name=listNotes.get(ACTIVE)
     cmd="delete from notes where name=\'"+name+"\'"
