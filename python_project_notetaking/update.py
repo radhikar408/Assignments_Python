@@ -2,9 +2,8 @@ import tkinter
 from tkinter import *
 import pymysql
 from insert import *
-import noteapp
-from noteapp import *
-
+# import noteapp
+# from noteapp import *
 
 db=pymysql.connect('localhost','root','khushbukhushi','note')
 cursor = db.cursor()
@@ -19,10 +18,12 @@ nameList=[]
 
 
 def update():
+    print("update")
+    update_root = Tk()
+    update_root.geometry("500x500")
+
     global entryName
     global update_text
-    update_root=Tk()
-    update_root.geometry("500x500")
     labelName = Label(update_root, text='name')
     labelName.place(x=10, y=10)
     entryName=Entry(update_root,width=30)
@@ -38,6 +39,7 @@ def update():
 
 
 def search():
+    print("search")
     # print("cp1")
     global name
     cmd1 = "select name from notes"
@@ -52,6 +54,7 @@ def search():
             break
 
 def fetchdata(names):
+    print("fetchdata")
     global update_text
     cmd = "select data from notes where name= \'"+names+"\'"
     cursor.execute(cmd)
@@ -60,6 +63,7 @@ def fetchdata(names):
     update_text.insert(INSERT, textData[0][0])
 
 def saveChanges():
+    print("save changes")
     global name
     print(name)
     global update_text
@@ -69,7 +73,6 @@ def saveChanges():
     cmd="update notes set data=\'"+textData+"\' where name= \'"+name+"\'"
     cursor.execute(cmd)
     fetchdata(name)
-
 
 
 

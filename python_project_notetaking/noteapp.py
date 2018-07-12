@@ -11,11 +11,11 @@ import sys
 global nameList
 global listNotes
 nameList=[]
-
 db=pymysql.connect('localhost','root','khushbukhushi','note')
 cursor = db.cursor()
-
+print("cp1")
 def main():
+    print("main")
     global listNotes
     root=Tk()
 
@@ -48,8 +48,9 @@ def main():
         listNotes.insert(END,get_name[i][0])
     root.mainloop()
 
-
+print("cp2")
 def deleteNotes():
+    print("deletenotes")
     global listNotes
     name=listNotes.get(ACTIVE)
     cmd="delete from notes where name=\'"+name+"\'"
